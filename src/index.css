@@ -1,0 +1,148 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-image: black;
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+
+
+
+
+header {
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  color: wheat;
+}
+
+h1 {
+  flex:5;
+  text-transform: uppercase
+}
+
+
+nav {
+  height: 50px;
+  flex: 100%;
+  display: flex;
+}
+
+nav ul {
+  padding: 100;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+nav a, nav span {
+  display: inline-block;
+  font-size: 2rem;
+  height: 3rem;
+  line-height: 1.7;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: red;
+  
+
+}
+
+a:link,
+      
+      a:hover {
+        text-decoration: none;
+        color: green;
+      }
+
+.box {
+  border: 5px solid red;
+  background-color: black;
+  padding: 20px 40px 40px 40px;
+  margin: 40px ;
+  width: 300px;
+  height: 170px;
+  position: absolute;
+  left: 830px;
+  top: 250px;
+  
+}
+
+.reviewbox_1 {
+  border: 5px solid red;
+  padding: 1em;
+  height: 150px;
+  width: 300px;
+  overflow: auto;
+  position: absolute;
+  left: 130px;
+  top: 280px;
+}
+
+.reviewbox_2 {
+  border: 5px solid red;
+  padding: 1em;
+  height: 150px;
+  width: 300px;
+  overflow: auto;
+  position: absolute;
+  left: 470px;
+  top: 280px;
+}
+
+.reviewbox_3 {
+  border: 5px solid red;
+  padding: 1em;
+  height: 150px;
+  width: 300px;
+  overflow: auto;
+  position: absolute;
+  left: 130px;
+  top: 470px;
+}
+
+.reviewbox_4 {
+  border: 5px solid red;
+  padding: 1em;
+  height: 150px;
+  width: 300px;
+  overflow: auto;
+  position: absolute;
+  left: 470px;
+  top: 470px;
+}
+
+.text{
+  text-transform: uppercase;
+  text-decoration: solid;
+  font: 1.5em sans-serif;
+  font-weight: bold;
+  position: absolute;
+  left: 130px;
+  top: 240px;
+}
+
+
+
+
+
+
+
+
